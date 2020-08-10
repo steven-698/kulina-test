@@ -17,15 +17,14 @@ Function Description
 Complete the sock merchant function in the editor below. It must return an integer
 representing the number of matching pairs of socks that are available.
 sockMerchant has the following parameter(s):
-● n : the number of socks in the pile
-● ar : the colors of each sock
+- n : the number of socks in the pile
+- ar : the colors of each sock
 Input Format
-The first line contains an integer n , the number of socks represented in ar .
-The second line contains n space-separated integers describing the colors ar [ i ] of the
-socks in the pile.
+- The first line contains an integer n , the number of socks represented in ar .
+- The second line contains n space-separated integers describing the colors ar [ i ] of the socks in the pile.
 Constraints
-1 ≤ n ≤ 100
-1 ≤ ar [ i ] ≤ 100 where 0 ≤ i < n
+- 1 ≤ n ≤ 100
+- 1 ≤ ar [ i ] ≤ 100 where 0 ≤ i < n
 
 ## Question No.2 (the answer is in file no2.py)
 Bill is an avid hiker. He tracks his hikes meticulously, paying close attention to small details
@@ -33,10 +32,8 @@ like topography. During his last hike he took exactly n steps. For every step he
 noted if it was an uphill, U , or a downhill, D step. Gary's hikes start and end at sea level
 and each step up or down represents a 1 unit change in altitude. We define the following
 terms:
-● A mountain is a sequence of consecutive steps above sea level, starting with a step
-up from sea level and ending with a step down to sea level.
-● A valley is a sequence of consecutive steps below sea level, starting with a step
-down from sea level and ending with a step up to sea level.
+- A mountain is a sequence of consecutive steps above sea level, starting with a step up from sea level and ending with a step down to sea level.
+- A valley is a sequence of consecutive steps below sea level, starting with a step down from sea level and ending with a step up to sea level.
 Given Gary's sequence of up and down steps during his last hike, find and print the number
 of valleys he walked through.
 For example, if Gary's path is s = [D D U U U U D D] , he first enters a valley 2 units deep.
@@ -46,14 +43,14 @@ Function Description
 Complete the countingValleys function in the editor below. It must return an integer that
 denotes the number of valleys Gary traversed.
 countingValleys has the following parameter(s):
-● n : the number of steps Gary takes
-● s: a string describing his path
+- n : the number of steps Gary takes
+- s: a string describing his path
 Input Format
-The first line contains an integer n , the number of steps in Gary's hike.
-The second line contains a single string s , of n characters that describe his path.
+- The first line contains an integer n , the number of steps in Gary's hike.
+- The second line contains a single string s , of n characters that describe his path.
 Constraints
-● 2 ≤ n ≤ 10⁶
-● s[i] ∈ { U D }
+- 2 ≤ n ≤ 10⁶
+-  s[i] ∈ { U D }
 
 ## Question No.4 (the answer is in file no4.py)
 Andrew walks through 100 switches from point A to point B with 1 to 100 as the number.
